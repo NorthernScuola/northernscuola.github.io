@@ -112,6 +112,14 @@ a{
   color: var(--Background-Color);
 }
 
+.lyric{
+  text-align: justify;
+  line-height: 1.5;
+  font-family: CreatoDisplay-Medium;
+  color: var(--Background-Color);
+  text-transform: capitalize;
+}
+
 /* Coming Soon */
 
 .coming-soon{
