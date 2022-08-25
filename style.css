@@ -125,6 +125,7 @@ a{
 .coming-soon{
   height: 100%;
   display: flex;
+  padding-top: 3em;
   align-items: center;
   justify-content: center;
   overflow: hidden;
