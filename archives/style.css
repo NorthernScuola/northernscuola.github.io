@@ -48,6 +48,15 @@
     transform: translateX(0%);
 }
 
+
+@media only screen and (max-width: 900px) {
+ #archives_content .box_container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        overflow: hidden;
+    }
+}
+
 @media only screen and (max-width: 800px) {
  #archives_content .box_container{
         display: grid;
