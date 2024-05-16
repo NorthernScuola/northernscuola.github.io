@@ -1,0 +1,49 @@
+#archives_content{
+    position: relative;
+    background-color: var(--color_5);
+}
+
+#archives_content .box_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    overflow: hidden;
+}
+
+#archives_content .box{
+    position: relative;
+   aspect-ratio: 16/9;
+   background-color: var(--color_2);
+   overflow: hidden;
+   transition: ease-out .3s;
+}
+
+#archives_content img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    transition: ease-out .3s;
+}
+
+#archives_content .box img:hover{
+    transform: scale(1.2);
+}
+
+
+#archives_content .date{
+    position: absolute;
+    color: var(--color_4);
+    top: 0;
+    right: 0;
+    background-color: #ac6141;
+    padding: 1rem;
+    transform: translateX(100%);
+    transition: ease-out .3s;
+}
+
+#archives_content .date h2{
+    position: relative;
+}
+
+#archives_content .box:hover .date{
+    transform: translateX(0%);
+}

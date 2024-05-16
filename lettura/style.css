@@ -1,0 +1,17 @@
+#lettura_content .box_container {
+display: flex;
+flex-direction: column;
+gap: var(--size_2);
+}
+
+#lettura_content .box_container .box{
+    display: flex;
+    flex-direction: column;
+    gap: var(--size_7);
+}
+
+#lettura_content p{
+    text-align: justify;
+    text-indent: var(--size_1);
+
+}
