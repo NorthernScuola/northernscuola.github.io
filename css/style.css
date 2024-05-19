@@ -249,9 +249,11 @@ nav .hamburger_menu.on_click div:nth-child(3){
 }
 
 #about p{
+    text-indent:  var(--size_5);
     color: var(--color_4);
     text-align: justify;
 }
+
 #about img{
     height: 3rem;
 }

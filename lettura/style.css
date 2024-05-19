@@ -12,6 +12,6 @@ gap: var(--size_2);
 
 #lettura_content p{
     text-align: justify;
-    text-indent: var(--size_1);
+    text-indent:  var(--size_5);
 
 }
