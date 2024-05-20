@@ -34,7 +34,7 @@
     color: var(--color_4);
     top: 0;
     right: 0;
-    background-color: #ac6141;
+    background-color: var(--color_2);
     padding: 1rem;
     transform: translateX(100%);
     transition: ease-out .3s;
