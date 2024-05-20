@@ -319,7 +319,20 @@ nav .hamburger_menu.on_click div:nth-child(3){
 
 
 
+.button{
+    width: 100%;
+    background-color: var(--color_2);
+    text-align: center;
+    padding: 1rem;
+    color: var(--color_4);
+    font-size: 2rem;
+    transition: ease-out .3s;
+}
 
+.button:hover{
+    color: var(--color_1);
+    background-color: var(--color_3);
+}
 
 
 
