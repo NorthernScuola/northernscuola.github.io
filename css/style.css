@@ -29,6 +29,7 @@ filter: grayscale(30%);
     --color_3: #afb094;
     --color_4: #c9d5ae;
     --color_5: #ffffff;
+    --color_6: #19191f;
 
     /* Size */
     --size_1: 7.5rem;
@@ -240,6 +241,7 @@ nav .hamburger_menu.on_click div:nth-child(3){
    display: flex;
    flex-direction: column;
    gap: 2rem;
+   text-indent:  var(--size_5);
 
 }
 #about h1{
@@ -249,7 +251,6 @@ nav .hamburger_menu.on_click div:nth-child(3){
 }
 
 #about p{
-    text-indent:  var(--size_5);
     color: var(--color_4);
     text-align: justify;
 }
@@ -260,7 +261,7 @@ nav .hamburger_menu.on_click div:nth-child(3){
 
 /* Banner */
 #banner {
-    background-color: var(--color_2);
+    background-color: var(--color_6);
 }
 
 #banner .container{
@@ -405,7 +406,7 @@ footer{
     position: relative;
     width: 100%;
     height: var(--size_1);
-    background-color:  var(--color_2);
+    background-color:  var(--color_6);
 }
 footer .container{
     position: relative;
