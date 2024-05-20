@@ -241,7 +241,6 @@ nav .hamburger_menu.on_click div:nth-child(3){
    display: flex;
    flex-direction: column;
    gap: 2rem;
-   text-indent:  var(--size_5);
 
 }
 #about h1{
@@ -253,6 +252,7 @@ nav .hamburger_menu.on_click div:nth-child(3){
 #about p{
     color: var(--color_4);
     text-align: justify;
+   text-indent:  var(--size_5);
 }
 
 #about img{
@@ -389,6 +389,31 @@ nav .hamburger_menu.on_click div:nth-child(3){
 }
 
 
+
+
+#news{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: var(--color_6);
+}
+
+#news .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+#news h1{
+    color: var(--color_3);
+}
+
+#news img{
+    width: 100%;
+}
+
+
+
 #movement{
     background-color: var(--color_1);
 }
@@ -456,6 +481,13 @@ footer p{
         --size_5: 2rem;
         --size_6: 2rem;
     }
+
+    h1{
+        font-size: 4rem;
+        line-height: normal;
+        text-align: center;
+    }
+
 
     h2{
         font-size: 3rem;

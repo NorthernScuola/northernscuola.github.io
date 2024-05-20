@@ -28,6 +28,9 @@
     transform: scale(1.2);
 }
 
+iframe{
+    width: 100%;
+}
 
 #archives_content .date{
     position: absolute;
