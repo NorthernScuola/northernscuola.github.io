@@ -476,7 +476,7 @@ footer p{
         height: auto;
         top: var(--size_1);
         left: 0;    
-        background-color: #570e0e;
+        background-color: var(--color_6);
         z-index: 998;
         transition: ease-out .3s;
     }
