@@ -249,6 +249,10 @@ nav .hamburger_menu.on_click div:nth-child(3){
     text-align: left;
 }
 
+#about h4{
+    color: var(--color_5);
+}
+
 #about p{
     color: var(--color_4);
     text-align: justify;
